@@ -1,7 +1,7 @@
 # Python-Projects
 I have recently started learning Python. I'd love to develop advanced skills by creating more projects.
 
-Main Implementations:
+Main Implementations of **Sudoku**:
 1. **Sudoku Solver Functions:**
     - `find_next_empty(puzzle)`: Finds the next empty cell (represented by -1) in the Sudoku puzzle. Returns the row and column of the empty cell, or `(None, None)` if there are no empty cells left.
     - `is_valid(puzzle, guess, row, col)`: Checks if placing a `guess` in the given `row` and `col` of the Sudoku `puzzle` is a valid move. Checks for validity in the same row, column, and 3x3 square.
