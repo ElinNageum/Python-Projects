@@ -9,7 +9,7 @@ Main Implementations of **Sudoku**:
 2. **Example Board and Solving:**
     - The script initializes an example Sudoku board (`example_board`) that needs to be solved.
     - It then calls `solve_sudoku(example_board)` to solve the example Sudoku puzzle and prints the solution using `pprint`.
-3. **Tkinter GUI (Graphical User Interface):** (need to be fixed)
+3. **Tkinter GUI (Graphical User Interface):** (needs to be fixed)
     - The script creates a Tkinter window (`root`) for the GUI.
     - It creates a 9x9 grid of text entry fields (`entries`) representing the Sudoku puzzle. The initial values from the `example_board` are inserted into these entry fields.
     - The `solve_button` is a button labeled "Solve." When clicked, it calls the `solve` function.
